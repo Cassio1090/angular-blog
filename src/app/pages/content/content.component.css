@@ -12,11 +12,14 @@
 
 
 .content__cover > img {
-  border: 3px solid rgb(155, 155, 155);
+  box-shadow: 1px 0px 18px 1px rgba(255,255,255,0.77);
+  -webkit-box-shadow: 1px 0px 18px 1px rgba(255,255,255,0.77);
+  -moz-box-shadow: 1px 0px 18px 1px rgba(255,255,255,0.77);
   border-radius: 5px;
   width: 520px;
   min-width: 600px;
   height: 365px;
+  margin-bottom: 20px;
 }
 
 .content__description{
@@ -24,6 +27,9 @@
 }
 
 .content__description > p {
+  text-align: justify;
+  max-width: 1600px;
+  box-sizing: border-box;
   margin-top: 20px;
   margin-left: 15px;
   margin-right: 15px;
