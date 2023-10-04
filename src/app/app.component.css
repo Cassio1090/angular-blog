@@ -1,0 +1,14 @@
+header {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 16px;
+  font-family: 'Courier New', monospace;
+  display: flex;
+  justify-content: center;
+}

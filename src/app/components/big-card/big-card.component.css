@@ -1,9 +1,9 @@
 .container__big-card {
-  
+
   margin-left: 10px;
   margin-right: 10px;
 
-  width: 400px;
+  width: 550px;
   height: 500px;
 
   display: flex;
@@ -14,12 +14,13 @@
 
 .big-card__title >h1 {
   margin-top: 15px;
-  font-size: 20px;
+  font-size: 28px;
 
 }
 
 .big-card__description {
   margin-top: 20px;
+  line-height: 1.5;
 
 }
 
